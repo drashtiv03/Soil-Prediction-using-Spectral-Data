@@ -38,10 +38,15 @@ Each model is evaluated with three sample test conditions:
 
 ## 🧠 Technologies Used
 Python
+
 Scikit-learn
+
 TensorFlow / PyTorch
+
 Pandas, NumPy
+
 Matplotlib, Seaborn
+
 Jupyter Notebooks
 
 ## 📌 Future Improvements
