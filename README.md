@@ -21,14 +21,6 @@ The model is based on a **Transformer Encoder**, which processes spectral featur
 - **Transformer Encoder**: Captures feature relationships.
 - **Regression Head**: Outputs the final pH prediction.
 
-## 🔧 Installation
-Clone the repository and install dependencies:
-```sh
- git clone https://github.com/your-repo-link.git
- cd soil-nutrient-prediction
- pip install -r requirements.txt
-```
-
 ## 📈 Results & Insights
 - **Achieved high R² value** for soil pH prediction.
 - **Water level variations impact spectral readings**.
