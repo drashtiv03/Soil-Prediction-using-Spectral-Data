@@ -1,43 +1,52 @@
-# 🌱 Soil Nutrient Prediction using Spectral Data
+## 🌱 Soil Nutrient Prediction Using Spectral Data**
+A machine learning project aimed at predicting various soil nutrient levels using spectral reflectance data. This project employs multiple ML models to accurately determine pH, Nitrogen (Nitro), Potassium (Pota Nitro), and other nutrient levels based on spectral data at specific wavelengths.
 
-## 📌 Project Overview
-This project was developed as part of **HackNuthon 6.0**, organized by **Nirma University** 🏆. It utilizes a **Transformer-based model** to predict soil **pH levels** using spectral reflectance data. The dataset consists of various spectral wavelengths and soil properties collected at different water levels (0ml, 25ml, 50ml). 
+## 👨‍💻 Team: Data Pirates
+**Contributors**: Drashti Vaghasiya
+              Bhimani Yatra
+              Drashti Vaghasiya
+              Heli Detroja
 
-## 🚀 Features
-- Uses **Deep Learning (Transformer Model)** for accurate soil pH prediction.
-- Implements **feature engineering** with spectral indices.
-- Supports **multi-water level analysis** for better soil assessment.
-- Provides **visualizations** of spectral trends.
+## 🧠 Project Overview
+The goal of this project is to predict nutrient levels in soil using spectral reflectance values. Each nutrient or metric is predicted using a different machine learning model selected based on its predictive power and accuracy for that task.
 
-## 📂 Dataset
-The dataset includes:
-- **Spectral Reflectance Data** (Wavelengths: 435nm, 460nm, 560nm, 680nm, 705nm, 860nm)
-- **Soil Properties** (pH levels, Nitrogen content, etc.)
-- **Water Level Variations** (0ml, 25ml, 50ml)
+## 🧪 Nutrient Predictions & Models Used
 
-## 🏗 Model Architecture
-The model is based on a **Transformer Encoder**, which processes spectral features and predicts the soil pH level. The key components include:
-- **Embedding Layer**: Converts input features into high-dimensional space.
-- **Transformer Encoder**: Captures feature relationships.
-- **Regression Head**: Outputs the final pH prediction.
+| **Nutrient**     | **Model Used**                            | **Ideal Wavelengths (nm)**         |
+|------------------|--------------------------------------------|-------------------------------------|
+| pH               | Transformer Encoder Model (Self-Attention) | 435, 460, 560, 705, 860, 680        |
+| Nitro            | Random Forest Regressor                   | 645, 705, 680, 585, 560             |
+| Pota Nitro (1)   | Gradient Boosting Regressor               | 410, 460, 510                       |
+| Pota Nitro (2)   | Neural Network with Multi-Head Attention  | 410, 460, 510                       |
+| Posh Nitro       | Fully Connected Regression Head           | 460, 860                            |
 
-## 📈 Results & Insights
-- **Achieved high R² value** for soil pH prediction.
-- **Water level variations impact spectral readings**.
-- **Certain wavelengths like 460nm and 860nm play a key role** in prediction accuracy.
+
+## 📈 Results Summary
+Each model is evaluated with three sample test conditions:
+Concentration Levels: 0ml, 25ml, 50ml
+Evaluation Metrics: Regression metrics (MAE, RMSE, R² score, etc.)
+
+## 🔧 Project Architecture
+**Data Input**: Spectral data (reflectance at different wavelengths)
+
+**Preprocessing**: Feature selection based on ideal wavelengths
+
+**Model Training**: Separate models trained for each nutrient
+
+**Prediction Output**: Continuous values representing nutrient concentration
+
+**Post-processing**: Normalization and interpretation of predicted values
+
+## 🧠 Technologies Used
+Python
+Scikit-learn
+TensorFlow / PyTorch
+Pandas, NumPy
+Matplotlib, Seaborn
+Jupyter Notebooks
 
 ## 📌 Future Improvements
-✅ Add more spectral indices.
-✅ Fine-tune Transformer hyperparameters.
-✅ Explore additional soil properties.
-
-## 💡 Contributors
-
-- **Team Name: Data Pirates** 🏴‍☠️
-- **Drashti Vaghasiya** 👩‍💻
-- **Bhimani Yatra, Harvy Doshi, Heli Detroja** 👨‍💻
-
-## 📜 License
-This project is licensed under the MIT License.
-
-🌟 _Feel free to contribute and improve this project!_ 🚀
+Add cross-validation and hyperparameter tuning
+Integrate explainability using SHAP or LIME
+Build a web-based dashboard for farmer usage
+Expand model to additional nutrients or environmental factors
