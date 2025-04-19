@@ -2,10 +2,7 @@
 A machine learning project aimed at predicting various soil nutrient levels using spectral reflectance data. This project employs multiple ML models to accurately determine pH, Nitrogen (Nitro), Potassium (Pota Nitro), and other nutrient levels based on spectral data at specific wavelengths.
 
 ## 👨‍💻 Team: Data Pirates
-**Contributors**: Drashti Vaghasiya
-              Bhimani Yatra
-              Drashti Vaghasiya
-              Heli Detroja
+**Contributors**: Drashti Vaghasiya, Bhimani Yatra, Drashti Vaghasiya, Heli Detroja
 
 ## 🧠 Project Overview
 The goal of this project is to predict nutrient levels in soil using spectral reflectance values. Each nutrient or metric is predicted using a different machine learning model selected based on its predictive power and accuracy for that task.
