@@ -51,6 +51,9 @@ Jupyter Notebooks
 
 ## 📌 Future Improvements
 Add cross-validation and hyperparameter tuning
+
 Integrate explainability using SHAP or LIME
+
 Build a web-based dashboard for farmer usage
+
 Expand model to additional nutrients or environmental factors
