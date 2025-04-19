@@ -20,8 +20,8 @@ The goal of this project is to predict nutrient levels in soil using spectral re
 
 ## 📈 Results Summary
 Each model is evaluated with three sample test conditions:
-Concentration Levels: 0ml, 25ml, 50ml
-Evaluation Metrics: Regression metrics (MAE, RMSE, R² score, etc.)
+**Concentration Levels**: 0ml, 25ml, 50ml
+**Evaluation Metrics**: Regression metrics (MAE, RMSE, R² score, etc.)
 
 ## 🔧 Project Architecture
 **Data Input**: Spectral data (reflectance at different wavelengths)
