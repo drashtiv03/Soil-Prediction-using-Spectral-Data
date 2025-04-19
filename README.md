@@ -1,4 +1,4 @@
-## 🌱 Soil Nutrient Prediction Using Spectral Data**
+## 🌱 Soil Nutrient Prediction Using Spectral Data
 A machine learning project aimed at predicting various soil nutrient levels using spectral reflectance data. This project employs multiple ML models to accurately determine pH, Nitrogen (Nitro), Potassium (Pota Nitro), and other nutrient levels based on spectral data at specific wavelengths.
 
 ## 👨‍💻 Team: Data Pirates
