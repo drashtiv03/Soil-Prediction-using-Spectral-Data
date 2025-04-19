@@ -29,12 +29,6 @@ Clone the repository and install dependencies:
  pip install -r requirements.txt
 ```
 
-## 📊 Training & Evaluation
-To train and evaluate the model, run:
-```sh
-python train.py
-```
-
 ## 📈 Results & Insights
 - **Achieved high R² value** for soil pH prediction.
 - **Water level variations impact spectral readings**.
