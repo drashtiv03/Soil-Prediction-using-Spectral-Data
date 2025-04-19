@@ -34,8 +34,8 @@ The model is based on a **Transformer Encoder**, which processes spectral featur
 ## 💡 Contributors
 
 - **Team Name: Data Pirates** 🏴‍☠️
-- **Bhimani Yatra** 👩‍💻
-- **Drashti Vaghasiya, Harvy Doshi, Heli Detroja** 👨‍💻
+- **Drashti Vaghasiya** 👩‍💻
+- **Bhimani Yatra, Harvy Doshi, Heli Detroja** 👨‍💻
 
 ## 📜 License
 This project is licensed under the MIT License.
